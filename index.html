@@ -12,59 +12,15 @@
 <body>
 	<div class="container">
 		<div class="form">
-			<input type="text" placeholder="Name" class="input" />
-			<input type="text" placeholder="Number" class="input" />
+			<input id="name" type="text" placeholder="Name" class="input" />
+			<input id="number" type="text" placeholder="Number" class="input" />
 			<button class="add-btn">Add Contact</button>
 		</div>
 
-		<div class="contact-list">
-			<div class="contact-card">
-				<img src="./Ellipse 21.png" class="avatar" />
-				<div class="contact-info">
-					<h4>Name</h4>
-					<p>Number/Username</p>
-				</div>
-				<div class="actions">
-					<i><img src="./tabler_edit.svg" alt=""></i>
-					<i><img src="./Vector.svg" alt=""></i>
-				</div>
-			</div>
-			<div class="contact-card">
-				<img src="./Ellipse 21.png" class="avatar" />
-				<div class="contact-info">
-					<h4>Name</h4>
-					<p>Number/Username</p>
-				</div>
-				<div class="actions">
-					<i><img src="./tabler_edit.svg" alt=""></i>
-					<i><img src="./Vector.svg" alt=""></i>
-				</div>
-			</div>
-			<div class="contact-card">
-				<img src="./Ellipse 21.png" class="avatar" />
-				<div class="contact-info">
-					<h4>Name</h4>
-					<p>Number/Username</p>
-				</div>
-				<div class="actions">
-					<i><img src="./tabler_edit.svg" alt=""></i>
-					<i><img src="./Vector.svg" alt=""></i>
-				</div>
-			</div>
-			<div class="contact-card">
-				<img src="./Ellipse 21.png" class="avatar" />
-				<div class="contact-info">
-					<h4>Name</h4>
-					<p>Number/Username</p>
-				</div>
-				<div class="actions">
-					<i><img src="./tabler_edit.svg" alt=""></i>
-					<i><img src="./Vector.svg" alt=""></i>
-				</div>
-			</div>
-
-		</div>
+		<div class="contact-list" id="list"></div>
 	</div>
+
+	<script src="./main.js"></script>
 </body>
 
 </html>
