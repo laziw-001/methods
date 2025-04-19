@@ -96,3 +96,7 @@ body {
   color: red;
   cursor: pointer;
 }
+.actions button {
+	background-color: transparent;
+	border: none;
+}
